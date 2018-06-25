@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cvtiga"
+    android:orientation="vertical"
+    tools:context=".PengisianActivity">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:background="#FFD5E4EB"
+        android:id="@+id/txtPi"
+        android:paddingLeft="10dp"
+        android:text="Pengisian Identitas"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama                  "
+            android:id="@+id/txtnama"
+            android:textColor="#000"
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/edt_nama"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:hint="Nama" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usia Tahun        "
+            android:textColor="#000"
+            android:id="@+id/txusia"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/sp_usia"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+
+           ></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelas                  "
+            android:textColor="#000"
+            android:id="@+id/txtkelas"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/sp_kelas"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+
+            ></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:id="@+id/txtkel"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_lk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laki-laki"
+                android:textSize="16sp"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rb_pr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:textSize="16sp"
+                android:text="Perempuan"
+                android:textColor="#000" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Test  "
+            android:textColor="#000"
+            android:id="@+id/txttgl"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tgl"
+            android:background="#fff"
+            android:inputType="none"
+            android:hint="Masukan tanggal test" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="@string/kembali"
+            android:id="@+id/ivkembali"
+            android:src="@drawable/kembali"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="320dp"
+            android:id="@+id/btn_selanjutnya"
+android:src="@drawable/selanjutnya2"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

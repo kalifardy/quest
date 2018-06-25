@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.keyalive.anonim.kuisioner">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PengisianActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PetunjukActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".A_PernyataanActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Auditori.AuActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kinestetik.KsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Visual.VsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Auditori.AuDuaAcitvity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kinestetik.KsDuaActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Visual.VsDuaAcitivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Auditori.AuhActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kinestetik.KshActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Visual.VshActivity"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>

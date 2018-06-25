@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/cvtiga"
+    tools:context=".PetunjukActivity">
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:background="#FFD5E4EB"
+        android:layout_marginTop="40dp"
+      >
+
+        <TextView
+            android:id="@+id/txtPetunjuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Petunjuk Pengisian    |"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtnama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Nama"
+            android:textColor="#000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hsatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/p1"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/hdua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/p2"
+        android:textColor="#000"
+        android:textSize="15sp" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_lk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ya"
+            android:textSize="17dp"
+            android:textColor="#000" />
+
+        <RadioButton
+            android:id="@+id/rb_pr"
+            android:layout_width="wrap_content"
+            android:textSize="17sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Tidak"
+            android:textColor="#000" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/htiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/p3"
+        android:textColor="#000"
+        android:textSize="15sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:id="@+id/ivkembali"
+            android:src="@drawable/kembali"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:id="@+id/mulai"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/masuk"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

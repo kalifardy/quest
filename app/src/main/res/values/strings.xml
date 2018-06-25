@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Test Gaya Belajar</string>
+    <string name="nama">Nama :</string>
+    <string name="usia_tahun">Usia (Tahun) :</string>
+    <string name="kelas">Kelas :</string>
+    <string name="jenis_kelamin">Jenis Kelamin:</string>
+    <string name="tanggal_test">Tanggal Test :</string>
+    <string name="kembali">Kembali</string>
+    <string name="selanjutnya">Selanjutnya</string>
+    <string name="mulai">mulai</string>
+    <string name="p1">Isilah sesuai dengan keadaan diri anda yang sesungguhnya</string>
+    <string name="p2">Klik salah satu jawaban yang ada pada kolom :</string>
+    <string name="p3">Kerjakan dengan teliti , karena tidak ada tombol back</string>
+    <string-array name="umur">
+        <item>Pilih Umur Anda</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="Kelas">
+        <item>Pilih kelas Anda</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+
+    </string-array>
+
+</resources>

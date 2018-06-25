@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/cvsatu"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:background="#FFD5E4EB"
+        android:layout_marginTop="40dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil Test   |"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:id="@+id/txtPi"
+            android:textColor="#000"
+            />
+        <TextView
+            android:id="@+id/txtnama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="206dp"
+        android:layout_height="146dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/kin" />
+
+    <ImageView
+        android:id="@+id/btnlihat"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/lihat" />
+
+
+</LinearLayout>
